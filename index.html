@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Modal</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='/style.css'>
-    <script src='/modal.js'></script>
-</head>
-<body>
-   <p class="para">hello world</p> 
-    
-</body>
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css" />
+  </head>
+  <body>
+    <button class="show-modal">show modal</button>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Nisl nunc mi ipsum
+      faucibus vitae aliquet. Sit amet nisl suscipit adipiscing bibendum est
+      ultricies. Ultricies tristique nulla aliquet enim tortor at auctor.
+      Euismod in pellentesque massa placerat duis ultricies lacus. Pellentesque
+      adipiscing commodo elit at imperdiet dui accumsan sit.
+    </p>
+    <div class="backdrop hidden"></div>
+    <div class="modal hidden">
+      <div class="modal__header">
+        <h2>Modal Title</h2>
+        <button class="close-modal">close</button>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Nisl nunc mi ipsum
+        faucibus vitae aliquet. Sit amet nisl suscipit adipiscing bibendum est
+        ultricies. Ultricies tristique nulla aliquet enim tortor at auctor.
+        Euismod in pellentesque massa placerat duis ultricies lacus.
+        Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit.
+      </p>
+    </div>
+    <script src="/modal.js"></script>
+  </body>
 </html>
